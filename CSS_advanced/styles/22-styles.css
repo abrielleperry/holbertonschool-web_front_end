@@ -168,10 +168,14 @@ ul.row {
 
 .col-1-3 {
   width: 33.33%;
+  float: left;
+  padding: 0.8rem;
 }
 
 .col-1-2 {
   width: 50%;
+  float: left;
+  padding: 0.8rem;
 }
 
 .footer-copyright {
@@ -190,12 +194,7 @@ ul.row {
   clear: both;
 }
 
-[class^="col-"] {
-  float: left;
-  padding: 0.8rem;
-}
-
-[data-section-theme="dark"] {
+.data-section-theme {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background: var(--color-black);
