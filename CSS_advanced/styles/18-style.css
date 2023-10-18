@@ -37,7 +37,6 @@ html {
   --section-body-padding: 0 0 3rem;
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
-  --section-footer-padding: 3rem 0 0rem;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
   --nav-item-font-family: var(--font-family-title);
@@ -47,6 +46,7 @@ html {
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
+  --section-tagline-margin: 0;
 }
 
 body {
@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   margin: 0;
   padding: 0;
+  list-style: none;
   text-align: center;
 }
 
@@ -151,9 +152,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
   display: block;
-  padding: var(--font-size-medium) 0;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
